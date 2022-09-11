@@ -5,7 +5,7 @@ How to run codes for Meta_Learning Research Paper:
 
 •	Probe_Network.ipynb file: it contains the code used for training probe network on disease classification tasks for extracting vectors corresponding to the datasets. These vectors are then stored for replacing 
 
-•	convergence_stage and intermediate_stage folders: Both these folders consist of two csv files each. “rawembstd.csv” contains the meta-dataset obtained through the above two codes, where “rawembstd.csv” present in convergence_stage folder represents meta-dataset obtained by training probe_network till convergence_stage. Same corresponding to the “intermediate_stage”. Similarly, “Veg_3_stddev.csv” corresponds to the vectors obtained for Veg_3 disease classification task corresponding to the two training stages of the probe network.
+•	convergence_stage and intermediate_stage folders: Both these folders consist of two csv files each. “rawembstd.csv” contains the meta-dataset obtained through the above two codes, where “rawembstd.csv” present in convergence_stage folder represents meta-dataset obtained by training probe_network till convergence_stage and in intermediate_stage folder corresponds to meta-dataset obtained by training till “intermediate_stage”. Similarly, “Veg_3_stddev.csv” corresponds to the vectors obtained for Veg_3 disease classification task corresponding to the two training stages of the probe network. Since, the meta-datasets files are large, google drive links have been provided in the respective folders to access the datasets.
 
 •	Models.csv: it contains the names of the pre-trained models used for the experiment
 
